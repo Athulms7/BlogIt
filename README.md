@@ -1,8 +1,5 @@
 # BlogIt
 A full-stack blogging platform built with React, TypeScript, Node.js, Express, PostgreSQL, Zod &amp; Prisma. Create, read, and explore blogs with a beautiful UI and powerful features.
-# ✍️ BlogIt — A Modern Blogging Platform
-
-**BlogIt** is a full-stack web application where users can write, share, and explore blogs in a minimal, elegant interface.
 
 ## 🚀 Features
 
@@ -28,7 +25,7 @@ A full-stack blogging platform built with React, TypeScript, Node.js, Express, P
 
 ### Backend
 - Node.js + Express
-- MongoDB with Prisma ORM
+- PostgreSQL with Prisma ORM
 - JWT for authentication
 - RESTful APIs
 - CORS + Helmet + Secure headers
