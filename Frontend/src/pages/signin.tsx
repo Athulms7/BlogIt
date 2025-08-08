@@ -17,7 +17,7 @@ export function SignIn() {
 
   async function signin() {
     try {
-      const resp = await axios.post("http://localhost:3001/api/v1/user/signin", {
+      const resp = await axios.post("https://blogit-4lvo.onrender.com/api/v1/user/signin", {
         username: username,
         password: password,
       });
