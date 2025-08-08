@@ -9,7 +9,7 @@ import { NotPage } from "./pagenotfound";
 
 
 async function fetchBlogData() {
-  const response = await axios.get("http://localhost:3001/api/v1/blog/blogss", {
+  const response = await axios.get("https://blogit-4lvo.onrender.com/api/v1/blog/blogss", {
     headers: {
       authorization: localStorage.getItem("token"),
     },
