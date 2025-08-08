@@ -7,7 +7,6 @@ import { authMiddleware } from "../middlewares/auth.js";
 
 export const userRouter = Router();
 import { PrismaClient } from "@prisma/client";
-import { number } from "zod/v4";
 
 const prisma = new PrismaClient();
 
