@@ -1,1 +1,0 @@
-export const JWTPASSWORD: string = "cheifhefjrt4r987849yr4n8y3rg"; 
