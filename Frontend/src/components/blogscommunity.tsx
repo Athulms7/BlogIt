@@ -26,7 +26,7 @@ export function Blogscom({ blog, user }: BlogProps) {
   
 const imageurl="https://kickervideo.com/wp-content/themes/kickervideoTheme/images/blog_default.png"
   return (
-    <div className="flex justify-between items-start w-90 p-4 md:p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#0f0f0f] shadow-sm hover:shadow-md transition-all mb-6 md:w-200">
+    <div className="flex justify-between items-start w-100 p-4 md:p-6 rounded-xl border border-gray-200 dark:border-gray-700 bg-white dark:bg-[#0f0f0f] shadow-sm hover:shadow-md transition-all mb-6 md:w-200">
       {/* Left section */}
       <div className="flex-1 pr-4">
         {/* Author */}
