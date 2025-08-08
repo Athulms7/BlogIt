@@ -23,7 +23,7 @@ export function Profilecomp({ userdata }: ProfileProps) {
   async function Update() {
     const token = localStorage.getItem("token");
     await axios.put(
-      "http://localhost:3001/api/v1/user/profile",
+      "https://blogit-4lvo.onrender.com/api/v1/user/profile",
       {
         firstname,
         lastname: lasttname,

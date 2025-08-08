@@ -16,7 +16,7 @@ type UserProps = {
 };
 
 async function fetchBlogData() {
-  const response = await axios.get("http://localhost:3001/api/v1/blog/blog", {
+  const response = await axios.get("https://blogit-4lvo.onrender.com/api/v1/blog/blog", {
     headers: {
       authorization: localStorage.getItem("token"),
     },

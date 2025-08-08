@@ -27,7 +27,7 @@ export function Createblogbutton() {
   console.log(description);
   const token =localStorage.getItem("token")
   async function onclick(){
- const resp=await axios.post("http://localhost:3001/api/v1/blog/createblog",{
+ const resp=await axios.post("https://blogit-4lvo.onrender.com/api/v1/blog/createblog",{
   title:title,
   description:description,
   imageurl:image,

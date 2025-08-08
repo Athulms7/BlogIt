@@ -109,7 +109,7 @@ const imageurl="https://kickervideo.com/wp-content/themes/kickervideoTheme/image
 
 async function deleted(blogId: string): Promise<void> {
   try {
-    const resp = await axios.delete("http://localhost:3001/api/v1/blog/delete", {
+    const resp = await axios.delete("https://blogit-4lvo.onrender.com/api/v1/blog/delete", {
       data: { id: blogId },
       headers: {
         authorization: localStorage.getItem("token")

@@ -53,7 +53,7 @@ Start the development server:
 npm run dev
 ```
 
-The server will run on `http://localhost:3001`
+The server will run on `https://blogit-4lvo.onrender.com`
 
 ## 🏗️ Building for Production
 

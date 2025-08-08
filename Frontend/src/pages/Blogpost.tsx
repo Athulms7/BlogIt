@@ -20,7 +20,7 @@ export function BlogPost() {
     return;
   }
     try {
-      const resp = await axios.post("http://localhost:3001/api/v1/blog/blogs", {
+      const resp = await axios.post("https://blogit-4lvo.onrender.com/api/v1/blog/blogs", {
         id:parseInt(id)
       },{
         headers:{

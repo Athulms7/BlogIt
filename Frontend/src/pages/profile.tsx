@@ -16,7 +16,7 @@ export function Profile() {
 
   async function fetchUserProfile() {
     try {
-      const resp = await axios.get("http://localhost:3001/api/v1/user/profile", {
+      const resp = await axios.get("https://blogit-4lvo.onrender.com/api/v1/user/profile", {
         headers: { authorization: token },
       });
       setuserdata(resp.data.user);
