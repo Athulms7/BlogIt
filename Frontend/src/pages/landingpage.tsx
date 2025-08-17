@@ -1,3 +1,4 @@
+import Footer from "@/components/footer";
 import { useNavigate } from "react-router-dom";
 
 export default function BlogitLandingPage() {
@@ -96,7 +97,7 @@ export default function BlogitLandingPage() {
       </section>
 
       {/* Call to Action */}
-      <section className="bg-gradient-to-b from-blue-100 to-white py-20 text-center">
+      <section className="bg-gradient-to-b from-blue-100 to-white py-20 text-center h-100">
         <h2 className="text-3xl font-bold text-gray-900 mb-4">Give your team a modern content engine</h2>
         <p className="text-gray-600 mb-6">Start creating blogs, docs, and everything in between.</p>
         <button onClick={()=>{
@@ -106,10 +107,8 @@ export default function BlogitLandingPage() {
         </button>
       </section>
 
-      {/* Footer */}
-      <footer className="bg-white py-10 border-t text-center text-sm text-gray-500">
-        © {new Date().getFullYear()} BlogIt. All rights reserved.
-      </footer>
+      
+      <Footer/>
     </div>
   );
 }
